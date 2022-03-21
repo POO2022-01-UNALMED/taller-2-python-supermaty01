@@ -9,7 +9,7 @@ class Motor:
         
     def asignarTipo(self, tipo):
         if tipo == 'electrico' or tipo == 'gasolina':
-            self.tipo == tipo
+            self.tipo = tipo
 
 class Asiento:
     def __init__(self, color, precio, registro):
